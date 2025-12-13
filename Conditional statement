@@ -1,0 +1,45 @@
+class AllConditionalExample {
+    public static void main(String[] args) {
+
+        int marks = 75;
+
+        // 1️⃣ if statement
+        if (marks > 40) {
+            System.out.println("Pass");
+        }
+
+        // 2️⃣ if-else statement
+        if (marks >= 50) {
+            System.out.println("Good Score");
+        } else {
+            System.out.println("Need Improvement");
+        }
+
+        // 3️⃣ else-if ladder statement
+        if (marks >= 90) {
+            System.out.println("Grade A");
+        } else if (marks >= 75) {
+            System.out.println("Grade B");
+        } else if (marks >= 50) {
+            System.out.println("Grade C");
+        } else {
+            System.out.println("Fail");
+        }
+
+        // 4️⃣ switch statement
+        int day = 2;
+        switch (day) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            default:
+                System.out.println("Invalid Day");
+        }
+    }
+}
